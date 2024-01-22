@@ -1,0 +1,84 @@
+body{
+    margin-left: 10px;
+}
+h2{
+    font-size: 20px;
+}
+.checked{
+        color: orange;
+        font-size: 20px;
+}
+table{
+     border-collapse:collapse;
+     border: 2px solid black;
+}
+th, td{
+       padding: 5px;
+       text-align: center;
+       border-bottom: 2px solid rgb(0, 0, 0);
+       padding: 0.7rem;
+}
+ td:nth-child(1){
+    background-color: rgba(0, 234, 255, 0.2);
+}
+thead tr{
+         background-color: rgba(0, 234, 255, 0.2);
+}
+.text{
+      width: 400px;
+      height: 100px;
+}
+.inp input{
+    width: 200px;
+    height: 25px;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+    outline: none;
+
+}
+.first label{
+    margin-top: -50px;
+    margin-left: -205px;
+    font-size: 20px;
+}
+
+.last input{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -28px;
+}
+.last label{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -27px;
+    font-size: 20px;
+}
+.first input:focus~ label, .first input:valid~ label{
+    position: relative;
+    top: -21px;
+    font-size: 13px;
+    color: blue;
+    transition: ease-in-out 0.5s;
+}
+.last input:focus~label, .last input:valid~label{
+    position: relative;;
+    top: -45px;
+    font-size: 13px;
+    color: blue;
+    transition: ease-in-out 0.5s;
+}
+.mail label{
+   position: absolute;
+   margin-left: 10px;
+    margin-top: -27px;
+    font-size: 20px;
+}
+.mail input:focus~label, .mail input:valid~label{
+    position: relative;
+    top: -45px;
+    font-size: 13px;
+    color: blue;
+    transition: ease-in-out 0.5s;
+}
